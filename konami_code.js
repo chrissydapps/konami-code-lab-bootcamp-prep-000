@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function a() {
-  document.body.addEventListener('kewdown', b)
+  document.body.addEventListener('keydown', b)
 }
 
 function b() {
