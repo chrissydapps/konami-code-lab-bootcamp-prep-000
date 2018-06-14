@@ -14,8 +14,15 @@ const codes = [
 let index = 0
 function a(e) {
   const k = e.key
-  if (k === codes[index])
-  alert('Congratulations, you have found Narnia!')
+  if (k === codes[index]) {
+    index++;
+    if (index === code.length) {
+      alert('Congratulations, you have found Narnia!');
+      index = 0
+    }
+  } else {
+    index = 0
+  }
 }
 
 function b() {
