@@ -11,15 +11,11 @@ const codes = [
   "a"
 ];
 
-function x() {
-  
-}
-
 function a() {
   document.body.addEventListener('keydown', b)
 }
 
-function b() {
+function b(e) {
   alert('Congratulations, you have found Narnia!')
 }
 
