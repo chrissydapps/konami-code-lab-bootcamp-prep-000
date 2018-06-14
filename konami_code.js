@@ -25,10 +25,6 @@ function konami(e) {
   }
 }
 
-function b() {
-  document.body.addEventListener('keydown', konami)
-}
-
 function init(b) {
-  
+  return document.body.addEventListener('keydown', konami)
 }
