@@ -30,6 +30,6 @@ function b() {
   body.addEventListener('keydown', konami)
 }
 
-function init() {
-  // your code here
+function init(b) {
+  return b
 }
