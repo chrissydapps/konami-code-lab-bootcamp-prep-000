@@ -12,7 +12,7 @@ const codes = [
 ];
 
 let index = 0
-function a(e) {
+function konami(e) {
   const k = e.key
   if (k === codes[index]) {
     index++;
