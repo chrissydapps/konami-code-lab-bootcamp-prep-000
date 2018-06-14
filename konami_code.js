@@ -11,6 +11,10 @@ const codes = [
   "a"
 ];
 
+function x() {
+  
+}
+
 function a() {
   document.body.addEventListener('keydown', b)
 }
