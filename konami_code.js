@@ -30,5 +30,5 @@ function b() {
 }
 
 function init(b) {
-  return b
+  
 }
